@@ -1,0 +1,15 @@
+name: SpawnMaster
+version: '1.0'
+main: fr.fuzeblocks.spawnmaster.SpawnMaster
+api-version: 1.16
+prefix: SpawnMaster
+load: STARTUP
+authors: [fuzeblocks]
+description: SpawnMaster un plugin de téléportation pour les joueurs.
+commands:
+  spawn:
+    permission: SpawnMaster.spawn
+  setspawn:
+    permission: SpawnMaster.setspawn
+  tponlogin:
+    permission: SpawnMaster.tponlogin
